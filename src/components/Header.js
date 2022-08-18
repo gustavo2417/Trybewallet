@@ -10,7 +10,7 @@ class Header extends React.Component {
       <div>
         <p data-testid="email-field">{email}</p>
         <p data-testid="total-field">
-          { expenses.length < 1 ? (0) : (expenses
+          { expenses.length < 1 ? ('0.00') : (expenses
             .reduce((acc, curr) => acc + (Number(curr.value) * curr
               .exchangeRates[curr.currency].ask), 0)
             .toFixed(2))}
