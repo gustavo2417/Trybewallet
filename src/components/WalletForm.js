@@ -68,7 +68,6 @@ class WalletForm extends React.Component {
             onChange={ this.handleChange }
           />
         </label>
-
         <label htmlFor="description">
           <input
             name="description"
@@ -121,7 +120,7 @@ class WalletForm extends React.Component {
           </select>
         </label>
         <button
-          type="submit"
+          type="button"
           onClick={ this.newExpense }
         >
           Adicionar despesa
