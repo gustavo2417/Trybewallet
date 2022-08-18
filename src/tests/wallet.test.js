@@ -9,13 +9,13 @@ describe('testa a pagina Wallet "/carteira"', () => {
 
       const inputCurrency = screen.getByTestId('currency-input');
       expect(inputCurrency).toBeInTheDocument();
-      
+
       const inputValue = screen.getByTestId('value-input');
       expect(inputValue).toBeInTheDocument();
 
       const inputTag = screen.getByTestId('tag-input');
       expect(inputTag).toBeInTheDocument();
-      
+
       const inputMethod = screen.getByTestId('method-input');
       expect(inputMethod).toBeInTheDocument();
 

@@ -36,7 +36,6 @@ class WalletForm extends React.Component {
       exchangeRates,
     };
     dispatchNewExpense(expense);
-    console.log(exchangeRates);
     this.setState({
       value: '',
       method: 'Dinheiro',
